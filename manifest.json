@@ -1,0 +1,13 @@
+{
+   "manifest_version": 3,
+   "name": "db-book Enhancer",
+   "description": "This will enhance the appearance of dbbook for a better user experience.",
+   "version": "0.1",
+   "author": "Shahriar Arefin",
+   "content_scripts": [
+      {
+         "matches": ["https://db-book.com/university-lab-dir/sqljs.html"],
+         "js": ["enhancer.js"]
+      }
+   ]
+}
